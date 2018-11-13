@@ -17,7 +17,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build1/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Spooky Maze Game.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build1/Spooky Maze Game.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
@@ -55,13 +55,13 @@
     </ul>
   </div>
 </nav>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 1500px; height: 800px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Software Design Project</div>
-      </div>
-    </div>
+<div class="webgl-content">
+  <div id="gameContainer" style="width: 1500px; height: 800px"></div>
+  <div class="footer">
+    <div class="webgl-logo"></div>
+    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+    <div class="title">Software Design Project</div>
+  </div>
+</div>
   </body>
 </html>

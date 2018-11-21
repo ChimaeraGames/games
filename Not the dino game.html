@@ -11,19 +11,19 @@
     <title>Chimaera</title>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Software Design Project</title>
+    <title>Unity WebGL Player | Heimerdinger</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build1/UnityLoader.js"></script>
+    <script src="Build2/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build1/Spooky Maze Game.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build2/Donger.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
   <body background="bg.jpg">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">Chimaera</a>
+  <a class="navbar-brand bold" href="index.html">Chimaera</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -42,7 +42,6 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="Spooky.html">Spooky Maze Game</a>
           <a class="dropdown-item" href="donger.html">Donger</a>
-          <a class="dropdown-item" href="Not the Dino Game.html">Not the Dino Game</a>
         </div>
       </li>
       <li class="nav-item dropdown active">
@@ -57,13 +56,15 @@
     </ul>
   </div>
 </nav>
-<div class="webgl-content">
-  <div id="gameContainer" style="width: 1500px; height: 800px"></div>
-  <div class="footer">
-    <div class="webgl-logo"></div>
-    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-    <div class="title">Software Design Project</div>
+<body>
+  <div class="webgl-content">
+    <div id="gameContainer" style="width: 1500px; height: 800px"></div>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+      <div class="title">Not the Dino Game</div>
+    </div>
   </div>
-</div>
+</body>
   </body>
 </html>

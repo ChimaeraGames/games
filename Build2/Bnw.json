@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Not the dino game",
+"dataUrl": "Bnw.data.unityweb",
+"asmCodeUrl": "Bnw.asm.code.unityweb",
+"asmMemoryUrl": "Bnw.asm.memory.unityweb",
+"asmFrameworkUrl": "Bnw.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
